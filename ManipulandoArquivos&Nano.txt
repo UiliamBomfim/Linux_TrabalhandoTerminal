@@ -1,0 +1,47 @@
+   29  ls
+   30  cd Documentos/
+   31  mkdir Ubuntu
+   32  ls
+   33  cd Ubuntu/
+   34  touch teste.txt
+   35  ls
+   36  rm teste.txt linux.txt
+   37  rm teste linux
+   38  ls
+   39  touch teste.txt
+   40  ls
+   41  mv teste.txt linux.txt
+   42  ls
+   43  cp linux.txt /home/uil/Downloads/
+   44  ls /home/uil/Downloads/
+   45  ls --help
+   46  man mv
+   47  mkdir Exercicios
+   48  ls
+   49  touch lista_nomes.txt
+   50  nano lista_nomes.txt 
+   51  head lista_nomes.txt 
+   52  tail lista_nomes.txt 
+   53  tail lista_nomes.txt |grep Uil
+   54  tail lista_nomes.txt |grep Mar
+   55  tail lista_nomes.txt |grep Marta
+   56  tail lista_nomes.txt |grep 1
+   57  tail lista_nomes.txt |grep  Uil
+   58  tail lista_nomes.txt |grep  i
+   59  cal setembro 2021 >> setembro.txt
+   60  ls
+   61  cat setembro.txt >> lista_nomes.txt 
+   62  cat lista_nomes.txt 
+   63  cat lista_nomes.txt |more
+   64  find setembro.txt
+   65  file lista_nomes.txt 
+   66  whatis ls
+   67  mv lista_nomes.txt arquivo.txt
+   68  ls
+   69  cat ~/.bash_history > nome_do_arquivo
+   70  cat ~/.bash_history > manipulandoArquivosNano.txt
+   71  ls
+   72  mv manipulandoArquivosNano.txt /home/uil/Documentos/
+   73  cd Documentos/
+   74  ls
+   75  history > manipulador.txt

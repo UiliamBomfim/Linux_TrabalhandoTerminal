@@ -1,0 +1,133 @@
+uil@ubuntu:~$ mkdir Exercicios
+uil@ubuntu:~$ ls
+'Área de Trabalho'   Downloads    Imagens   Música    snap
+ Documentos          Exercicios   Modelos   Público   Vídeos
+uil@ubuntu:~$ touch lista_nomes.txt
+uil@ubuntu:~$ nano lista_nomes.txt 
+uil@ubuntu:~$ head lista_nomes.txt 
+1- Uiliam
+2- Maria
+3- joao
+4- rafael
+5- Marta
+6- Paulo
+7- Pedro
+8- Tiago
+9- Vitor
+10- Carlos
+uil@ubuntu:~$ tail lista_nomes.txt 
+11- Juan
+12- Formell
+13- Emerson
+14- Nelson
+15- Ayrton
+16- Lewis
+17- Felipe
+18- Rubens
+19- Fernando
+20- Cissa
+uil@ubuntu:~$ tail lista_nomes.txt |grep Uil
+uil@ubuntu:~$ tail lista_nomes.txt |grep Mar
+uil@ubuntu:~$ tail lista_nomes.txt |grep Marta
+uil@ubuntu:~$ tail lista_nomes.txt |grep 1
+11- Juan
+12- Formell
+13- Emerson
+14- Nelson
+15- Ayrton
+16- Lewis
+17- Felipe
+18- Rubens
+19- Fernando
+uil@ubuntu:~$ tail lista_nomes.txt |grep  Uil
+uil@ubuntu:~$ tail lista_nomes.txt |grep  i
+16- Lewis
+17- Felipe
+20- Cissa
+uil@ubuntu:~$ cal setembro 2021 >> setembro.txt
+uil@ubuntu:~$ ls
+'Área de Trabalho'   Exercicios        Modelos   setembro.txt
+ Documentos          Imagens           Música    snap
+ Downloads           lista_nomes.txt   Público   Vídeos
+uil@ubuntu:~$ cat setembro.txt >> lista_nomes.txt 
+uil@ubuntu:~$ cat lista_nomes.txt 
+1- Uiliam
+2- Maria
+3- joao
+4- rafael
+5- Marta
+6- Paulo
+7- Pedro
+8- Tiago
+9- Vitor
+10- Carlos
+11- Juan
+12- Formell
+13- Emerson
+14- Nelson
+15- Ayrton
+16- Lewis
+17- Felipe
+18- Rubens
+19- Fernando
+20- Cissa
+   Setembro 2021      
+do se te qu qu se sá  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+                      
+uil@ubuntu:~$ cat lista_nomes.txt |more
+1- Uiliam
+2- Maria
+3- joao
+4- rafael
+5- Marta
+6- Paulo
+7- Pedro
+8- Tiago
+9- Vitor
+10- Carlos
+11- Juan
+12- Formell
+13- Emerson
+14- Nelson
+15- Ayrton
+16- Lewis
+17- Felipe
+18- Rubens
+19- Fernando
+20- Cissa
+   Setembro 2021      
+do se te qu qu se sá  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+                      
+uil@ubuntu:~$ find setembro.txt
+setembro.txt
+uil@ubuntu:~$ file lista_nomes.txt 
+lista_nomes.txt: UTF-8 Unicode text
+uil@ubuntu:~$ whatis ls
+ls (1)               - list directory contents
+uil@ubuntu:~$ mv lista_nomes.txt arquivo.txt
+uil@ubuntu:~$ ls
+'Área de Trabalho'   Documentos   Exercicios   Modelos   Público        snap
+ arquivo.txt         Downloads    Imagens      Música    setembro.txt   Vídeos
+uil@ubuntu:~$ ^C
+uil@ubuntu:~$ cat ~/.bash_history > nome_do_arquivo
+uil@ubuntu:~$ cat ~/.bash_history > manipulandoArquivosNano.txt
+uil@ubuntu:~$ ls
+'Área de Trabalho'   Exercicios                    Música            snap
+ arquivo.txt         Imagens                       nome_do_arquivo   Vídeos
+ Documentos          manipulandoArquivosNano.txt   Público
+ Downloads           Modelos                       setembro.txt
+uil@ubuntu:~$ mv manipulandoArquivosNano.txt /home/uil/Documentos/
+uil@ubuntu:~$ cd Documentos/
+uil@ubuntu:~/Documentos$ ls
+manipulandoArquivosNano.txt  Teste
+uil@ubuntu:~/Documentos$ history > manipulador.txt

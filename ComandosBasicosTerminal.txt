@@ -1,0 +1,46 @@
+pwd
+dir
+i
+ls Downloads
+cd Documentos
+pwd
+man ls
+dir
+mkdir Teste
+ls
+exit
+ls
+cd Documentos/
+ls
+rm Ubuntu/
+rmdir Ubuntu/
+rmdir Ubuntu
+ls
+rmdir Ubuntu/
+cd Ubuntu/
+ls
+rm linux.txt
+cd ..
+ls
+rmdir Ubuntu
+ls
+exit
+ld
+ls
+cd Documentos/
+mkdir Ubuntu
+ls
+cd Ubuntu/
+touch teste.txt
+ls
+rm teste.txt linux.txt
+rm teste linux
+ls
+touch teste.txt
+ls
+mv teste.txt linux.txt
+ls
+cp linux.txt /home/uil/Downloads/
+ls /home/uil/Downloads/
+ls --help
+man mv
